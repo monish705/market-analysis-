@@ -1,8 +1,10 @@
 # Polymarket Pyramid Edge Scanner
 
-Suggested permanent repo name: `polymarket-pyramid-edge-scanner`.
+Repository name: `polymarket-pyramid-edge-scanner`
 
-Minimal paper-mode prototype for scanning active Polymarket markets, estimating a pyramid-synthesized true probability, applying risk filters, and emitting JSON decisions.
+Paper-mode hierarchical multi-agent scanner for finding prediction-market edge candidates on Polymarket.
+
+The system scans active markets, enriches prices from the CLOB, synthesizes a local or CrewAI-backed probability estimate, applies liquidity/Kelly risk filters, and emits strict JSON trade decisions.
 
 This is research software, not financial advice. It does not place orders.
 
