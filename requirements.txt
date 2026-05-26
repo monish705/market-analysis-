@@ -1,0 +1,8 @@
+beautifulsoup4>=4.12.3
+cerebras-cloud-sdk>=1.0.0
+crewai>=0.100.0
+python-dotenv>=1.0.1
+pydantic>=2.7.0
+pytest>=8.0.0
+requests>=2.32.0
+tavily-python>=0.5.0

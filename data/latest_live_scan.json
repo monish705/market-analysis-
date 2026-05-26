@@ -1,0 +1,345 @@
+{
+  "mode": "local_heuristic",
+  "decisions": [
+    {
+      "market_id": "824952",
+      "question": "MicroStrategy sells any Bitcoin by December 31, 2026?",
+      "decision": "NO_TRADE",
+      "edge": -0.0252,
+      "edge_percent": -2.52,
+      "market_probability": 0.735,
+      "true_probability": 0.7098,
+      "recommended_position_usd": 0.0,
+      "confidence": 0.58,
+      "rationale": "edge below threshold: -2.52% < 8.00%; Kelly size is zero after caps"
+    },
+    {
+      "market_id": "692258",
+      "question": "MicroStrategy sells any Bitcoin by June 30, 2026?",
+      "decision": "NO_TRADE",
+      "edge": 0.0317,
+      "edge_percent": 3.17,
+      "market_probability": 0.3185,
+      "true_probability": 0.3502,
+      "recommended_position_usd": 0.0,
+      "confidence": 0.58,
+      "rationale": "edge below threshold: 3.17% < 8.00%"
+    },
+    {
+      "market_id": "2169995",
+      "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+      "decision": "NO_TRADE",
+      "edge": 0.0722,
+      "edge_percent": 7.22,
+      "market_probability": 0.0305,
+      "true_probability": 0.1027,
+      "recommended_position_usd": 0.0,
+      "confidence": 0.58,
+      "rationale": "edge below threshold: 7.22% < 8.00%"
+    },
+    {
+      "market_id": "597967",
+      "question": "Starmer out by June 30, 2026?",
+      "decision": "NO_TRADE",
+      "edge": 0.0146,
+      "edge_percent": 1.46,
+      "market_probability": 0.235,
+      "true_probability": 0.2496,
+      "recommended_position_usd": 0.0,
+      "confidence": 0.58,
+      "rationale": "edge below threshold: 1.46% < 8.00%"
+    },
+    {
+      "market_id": "666655",
+      "question": "Starmer out by December 31, 2026?",
+      "decision": "NO_TRADE",
+      "edge": -0.0062,
+      "edge_percent": -0.62,
+      "market_probability": 0.715,
+      "true_probability": 0.7088,
+      "recommended_position_usd": 0.0,
+      "confidence": 0.58,
+      "rationale": "edge below threshold: -0.62% < 8.00%; Kelly size is zero after caps"
+    }
+  ],
+  "traces": [
+    {
+      "market": {
+        "id": "824952",
+        "question": "MicroStrategy sells any Bitcoin by December 31, 2026?",
+        "slug": "microstrategy-sells-any-bitcoin-by-december-31-2026",
+        "condition_id": "0x8213d395e079614d6c4d7f4cbb9be9337ab51648a21cc2a334ae8f1966d164b4",
+        "yes_token_id": "111128191581505463501777127559667396812474366956707382672202929745167742497287",
+        "no_token_id": "99807503632459517030616292055983105381849115736225256331133222076990620978808",
+        "yes_price": 0.735,
+        "no_price": 0.265,
+        "volume": 56242.116047999996,
+        "liquidity": 30116.4925,
+        "end_date": "2027-01-01T05:00:00Z",
+        "category": null,
+        "raw_url": "https://polymarket.com/event/microstrategy-sells-any-bitcoin-by-december-31-2026"
+      },
+      "research": {
+        "market_id": "824952",
+        "question": "MicroStrategy sells any Bitcoin by December 31, 2026?",
+        "evidence": [],
+        "sentiment": "unknown",
+        "confidence": 0.45
+      },
+      "signals": [
+        {
+          "market_id": "824952",
+          "role": "bull",
+          "true_probability": 0.805,
+          "rationale": "Bull case gives credit to favorable catalysts and underreaction.",
+          "confidence": 0.55
+        },
+        {
+          "market_id": "824952",
+          "role": "bear",
+          "true_probability": 0.6482,
+          "rationale": "Bear case discounts crowded narratives and resolution ambiguity.",
+          "confidence": 0.55
+        },
+        {
+          "market_id": "824952",
+          "role": "skeptic",
+          "true_probability": 0.6763,
+          "rationale": "Skeptic pulls toward base rate and penalizes weak evidence.",
+          "confidence": 0.5
+        },
+        {
+          "market_id": "824952",
+          "role": "synthesizer",
+          "true_probability": 0.7098,
+          "rationale": "Average of bull, bear, and skeptic signals with no leverage.",
+          "confidence": 0.58
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "692258",
+        "question": "MicroStrategy sells any Bitcoin by June 30, 2026?",
+        "slug": "microstrategy-sells-any-bitcoin-by-june-30-2026",
+        "condition_id": "0x8e7a03cb1970e2ad6533b01892403516b6b3f5b5fa90ed7d104c28b27e40ba00",
+        "yes_token_id": "110251828161543119357013227499774714771527179764174739487025581227481937033858",
+        "no_token_id": "65176388692130651396848427090788038285140833850265294793449655516920659740141",
+        "yes_price": 0.3185,
+        "no_price": 0.6815,
+        "volume": 116551.15858700003,
+        "liquidity": 59170.95262,
+        "end_date": "2026-07-01T04:00:00Z",
+        "category": null,
+        "raw_url": "https://polymarket.com/event/microstrategy-sells-any-bitcoin-by-june-30-2026"
+      },
+      "research": {
+        "market_id": "692258",
+        "question": "MicroStrategy sells any Bitcoin by June 30, 2026?",
+        "evidence": [],
+        "sentiment": "unknown",
+        "confidence": 0.45
+      },
+      "signals": [
+        {
+          "market_id": "692258",
+          "role": "bull",
+          "true_probability": 0.4283,
+          "rationale": "Bull case gives credit to favorable catalysts and underreaction.",
+          "confidence": 0.55
+        },
+        {
+          "market_id": "692258",
+          "role": "bear",
+          "true_probability": 0.2585,
+          "rationale": "Bear case discounts crowded narratives and resolution ambiguity.",
+          "confidence": 0.55
+        },
+        {
+          "market_id": "692258",
+          "role": "skeptic",
+          "true_probability": 0.3639,
+          "rationale": "Skeptic pulls toward base rate and penalizes weak evidence.",
+          "confidence": 0.5
+        },
+        {
+          "market_id": "692258",
+          "role": "synthesizer",
+          "true_probability": 0.3502,
+          "rationale": "Average of bull, bear, and skeptic signals with no leverage.",
+          "confidence": 0.58
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2169995",
+        "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+        "slug": "microstrategy-sells-any-bitcoin-by-may-31-2026",
+        "condition_id": "0x3733a1b647e7364095736ab0966465d896a84cf3b6bc1695ca1f26c3239b3868",
+        "yes_token_id": "25714007960293389110960044475283546872601238755063051359394740854408462452120",
+        "no_token_id": "3192689304828767159232889612891719105504357313659012189260030438494464480574",
+        "yes_price": 0.0305,
+        "no_price": 0.9695,
+        "volume": 457376.0207540001,
+        "liquidity": 126576.56675,
+        "end_date": "2026-07-01T04:00:00Z",
+        "category": null,
+        "raw_url": "https://polymarket.com/event/microstrategy-sells-any-bitcoin-by-may-31-2026"
+      },
+      "research": {
+        "market_id": "2169995",
+        "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+        "evidence": [],
+        "sentiment": "unknown",
+        "confidence": 0.45
+      },
+      "signals": [
+        {
+          "market_id": "2169995",
+          "role": "bull",
+          "true_probability": 0.1402,
+          "rationale": "Bull case gives credit to favorable catalysts and underreaction.",
+          "confidence": 0.55
+        },
+        {
+          "market_id": "2169995",
+          "role": "bear",
+          "true_probability": 0.02,
+          "rationale": "Bear case discounts crowded narratives and resolution ambiguity.",
+          "confidence": 0.55
+        },
+        {
+          "market_id": "2169995",
+          "role": "skeptic",
+          "true_probability": 0.1479,
+          "rationale": "Skeptic pulls toward base rate and penalizes weak evidence.",
+          "confidence": 0.5
+        },
+        {
+          "market_id": "2169995",
+          "role": "synthesizer",
+          "true_probability": 0.1027,
+          "rationale": "Average of bull, bear, and skeptic signals with no leverage.",
+          "confidence": 0.58
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "597967",
+        "question": "Starmer out by June 30, 2026?",
+        "slug": "starmer-out-by-june-30-2026-862-594-548-219",
+        "condition_id": "0xbee2cd40473495f713c69b9dfbce9fc2837fa4011568222c83c83bb773e35053",
+        "yes_token_id": "34554555827438551101000555305203609600029621153428996114009350892614396532498",
+        "no_token_id": "64622848174080349355505680625481066249195809702245025265549356236367119746958",
+        "yes_price": 0.235,
+        "no_price": 0.765,
+        "volume": 66868.89080799998,
+        "liquidity": 94100.1492,
+        "end_date": "2026-06-30T12:00:00Z",
+        "category": null,
+        "raw_url": "https://polymarket.com/event/starmer-out-by-june-30-2026-862-594-548-219"
+      },
+      "research": {
+        "market_id": "597967",
+        "question": "Starmer out by June 30, 2026?",
+        "evidence": [],
+        "sentiment": "unknown",
+        "confidence": 0.45
+      },
+      "signals": [
+        {
+          "market_id": "597967",
+          "role": "bull",
+          "true_probability": 0.305,
+          "rationale": "Bull case gives credit to favorable catalysts and underreaction.",
+          "confidence": 0.55
+        },
+        {
+          "market_id": "597967",
+          "role": "bear",
+          "true_probability": 0.1427,
+          "rationale": "Bear case discounts crowded narratives and resolution ambiguity.",
+          "confidence": 0.55
+        },
+        {
+          "market_id": "597967",
+          "role": "skeptic",
+          "true_probability": 0.3013,
+          "rationale": "Skeptic pulls toward base rate and penalizes weak evidence.",
+          "confidence": 0.5
+        },
+        {
+          "market_id": "597967",
+          "role": "synthesizer",
+          "true_probability": 0.2496,
+          "rationale": "Average of bull, bear, and skeptic signals with no leverage.",
+          "confidence": 0.58
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "666655",
+        "question": "Starmer out by December 31, 2026?",
+        "slug": "starmer-out-by-december-31-2026-936-416-977-234-134-475",
+        "condition_id": "0x2bde6486e7067f48ee21344d8b5c1af458732536eb4d080932c88c3a7c2d2126",
+        "yes_token_id": "42498579290170525937803365597001189493798686141769429176410526295573824619073",
+        "no_token_id": "88902058027062214140177978007942040532071439710160833384602336149457247354303",
+        "yes_price": 0.715,
+        "no_price": 0.285,
+        "volume": 28588.332995,
+        "liquidity": 78583.8333,
+        "end_date": "2026-12-31T12:00:00Z",
+        "category": null,
+        "raw_url": "https://polymarket.com/event/starmer-out-by-december-31-2026-936-416-977-234-134-475"
+      },
+      "research": {
+        "market_id": "666655",
+        "question": "Starmer out by December 31, 2026?",
+        "evidence": [],
+        "sentiment": "unknown",
+        "confidence": 0.45
+      },
+      "signals": [
+        {
+          "market_id": "666655",
+          "role": "bull",
+          "true_probability": 0.8101,
+          "rationale": "Bull case gives credit to favorable catalysts and underreaction.",
+          "confidence": 0.55
+        },
+        {
+          "market_id": "666655",
+          "role": "bear",
+          "true_probability": 0.655,
+          "rationale": "Bear case discounts crowded narratives and resolution ambiguity.",
+          "confidence": 0.55
+        },
+        {
+          "market_id": "666655",
+          "role": "skeptic",
+          "true_probability": 0.6613,
+          "rationale": "Skeptic pulls toward base rate and penalizes weak evidence.",
+          "confidence": 0.5
+        },
+        {
+          "market_id": "666655",
+          "role": "synthesizer",
+          "true_probability": 0.7088,
+          "rationale": "Average of bull, bear, and skeptic signals with no leverage.",
+          "confidence": 0.58
+        }
+      ]
+    }
+  ],
+  "mock_backtest": {
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "pnl_usd": 0.0,
+    "ending_bankroll_usd": 10000.0,
+    "roi_percent": 0.0
+  }
+}
