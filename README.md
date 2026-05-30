@@ -1,8 +1,6 @@
 
 
-Repository name: `polymarket-pyramid-edge-scanner`
-
-Paper-mode hierarchical multi-agent scanner for finding prediction-market edge candidates on Polymarket.
+Paper-mode hierarchical multi-agent scanner for finding prediction-market edge candidates .
 
 The system scans active markets, enriches prices from the CLOB, synthesizes a local or CrewAI-backed probability estimate, applies liquidity/Kelly risk filters, and emits strict JSON trade decisions.
 
