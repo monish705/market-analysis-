@@ -1,4 +1,4 @@
-# Polymarket Pyramid Edge Scanner
+
 
 Repository name: `polymarket-pyramid-edge-scanner`
 
